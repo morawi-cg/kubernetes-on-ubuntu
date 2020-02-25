@@ -1,8 +1,6 @@
 #!/bin/bash
-#!/bin/bash
 
 # Docker ce time 19.
-
 sudo apt -y remove docker docker-engine docker.io
 sudo apt -y update
 sudo apt install -y apt-transport-https software-properties-common ca-certificates curl wget
