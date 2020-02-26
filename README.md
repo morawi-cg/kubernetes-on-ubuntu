@@ -9,6 +9,16 @@ Target environments:
 
 The Plan is to focuse with this article on AWS as its the target most of the times.
 
+
+* Added git
+* Added kubespray
+* Added Ansible
+* Added Boto3 for AWS on Python3
+* Added Kops
+
+__NOTE__ Components such as terraform, volt, consul, nomand, golang folder need to be added into this folder before 'vagant up' is issued, this is due to the size of these files.
+
+
 ## Deployment
 
 
