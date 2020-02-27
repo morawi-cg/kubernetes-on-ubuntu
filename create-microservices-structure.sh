@@ -8,7 +8,7 @@ wget https://download.docker.com/linux/ubuntu/gpg
 sudo apt-key add gpg
 sudo apt -y update
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 sudo apt-cache policy docker-ce
 sudo systemctl start docker
 sudo systemctl enable docker
